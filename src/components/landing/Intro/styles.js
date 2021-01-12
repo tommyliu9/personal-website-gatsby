@@ -62,10 +62,10 @@ export const Thumbnail = styled.div`
   flex: 1;
 
   @media (max-width: 960px) {
-    width: 100%;
+    width: 70%;
   }
 
   img {
-    width: 100%;
+    width: 50%;
   }
 `;

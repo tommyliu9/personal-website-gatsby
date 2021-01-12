@@ -1,9 +1,9 @@
 module.exports = {
-  defaultTitle: 'John Doe',
+  defaultTitle: 'Thomas Liu Doe',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-  author: 'John Doe',
+  author: 'Thomas Liu',
   url: 'https://portfolio.smakosh.com',
-  legalName: 'John Doe',
+  legalName: 'Thomas Liu',
   defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
   socialLinks: {
     twitter: 'http://www.twitter.com/smakosh',

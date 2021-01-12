@@ -10,9 +10,13 @@ export const Skills = () => {
 
   return (
     <Wrapper id="about">
+      
       <SkillsWrapper as={Container}>
+      <h1>
+        Skills
+      </h1>
         <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
+          <img src={dev} alt="I’m Thomas and I’m a Software Engineer and MusicpP" />
         </Thumbnail>
         <Details theme={theme}>
           <h1>More about me</h1>
