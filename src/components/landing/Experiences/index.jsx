@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Container} from 'components/common';
 import pinch from 'assets/illustrations/pinch.png';
-import rbc from 'assets/illustrations/RBC.svg';
+import rbc from 'assets/illustrations/rbc.svg';
 import interac from 'assets/illustrations/interac.svg';
 import {Thumbnail,ImageCard } from './styles';
 import {Row,Col,CardImg} from 'reactstrap'
