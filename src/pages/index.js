@@ -7,8 +7,9 @@ export default () => (
   <Layout>
     <SEO />
     <Intro />
-    <Projects />
     <Experiences/>
+
+    <Projects />
     <Skills />
     <Contact />
   </Layout>

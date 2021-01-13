@@ -1,0 +1,22 @@
+[
+
+  {
+    "id": 1,
+    "name": "Github",
+    "link": "https://github.com/tommyliu9",
+    "icon": "/icons/github-d.svg"
+  },
+  {
+    "id": 2,
+    "name": "Soundcloud",
+    "link": "https://soundcloud.com/nullpointererror",
+    "icon": "/icons/soundcloud.svg"
+  },
+  {
+    "id": 3,
+    "name": "Spotify",
+    "link": "https://twitter.com/smakosh",
+    "icon": "/icons/spotify.svg"
+  }
+
+]

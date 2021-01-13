@@ -10,7 +10,7 @@ export const Grid = styled.div`
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 8fr;
   gap: 1.2rem 1.2rem;
-
+  color:black;
   @media (max-width: 960px) {
     grid-template-columns: repeat(2, 1fr);
   }

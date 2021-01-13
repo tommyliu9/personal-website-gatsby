@@ -11,3 +11,8 @@ export const Thumbnail = styled.div`
     width: 15%;
   }
 `;
+
+
+export const ExperienceCard = styled.div`
+  
+`;
