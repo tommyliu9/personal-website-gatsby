@@ -17,7 +17,7 @@ export const Skills = () => {
       <SkillsWrapper as={Container}>
       
         <Thumbnail>
-          <img src={dev} alt="I’m Thomas and I’m a Software Engineer and MusicpP" />
+          <img src={dev} alt="I’m Thomas and I’m a Software Engineer and Musiic Pro" />
         </Thumbnail>
         <Details theme={theme}>
           <h1>More about me</h1>
@@ -50,11 +50,13 @@ export const Skills = () => {
         <Details theme={theme}>
           <h1>Music</h1>
           <p>
-           I love music of all genres, however, as a music producer, I mainly produce electronic dance music.
+           I love music of all genres, however, as a music producer, I mainly produce electronic dance music. Feel free to checkout some of tracks and playlists below :)
           </p>
           
         </Details>
       </SkillsWrapper>
+      
     </Wrapper>
+    
   );
 };

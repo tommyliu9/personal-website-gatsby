@@ -7,6 +7,12 @@
     "icon": "/icons/github-d.svg"
   },
   {
+    "id": 1,
+    "name": "Linkedin",
+    "link": "https://www.linkedin.com/in/thomas-liu-04a669160/",
+    "icon": "/icons/linkedin.svg"
+  },
+  {
     "id": 2,
     "name": "Soundcloud",
     "link": "https://soundcloud.com/nullpointererror",
@@ -15,7 +21,7 @@
   {
     "id": 3,
     "name": "Spotify",
-    "link": "https://twitter.com/smakosh",
+    "link": "https://open.spotify.com/user/phsspotify1?si=lPpQYMPIRLS67BD4MSV3YQ",
     "icon": "/icons/spotify.svg"
   }
 

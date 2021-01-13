@@ -17,7 +17,7 @@ export const Intro = () => {
       <IntroWrapper as={Container}>
         <Details theme={theme}>
           <h1>Hi There!</h1>
-          <h4>I’m Thomas and I'm a Software Engineer and Music Producer!</h4>
+          <h4>I’m Thomas and I'm a Software Engineer & Music Producer!</h4>
           <Links>
             {social.map(({ id, name, link, icon }) => (
               <a key={id} href={link} target="_blank" rel="noopener noreferrer" aria-label={`follow me on ${name}`}>

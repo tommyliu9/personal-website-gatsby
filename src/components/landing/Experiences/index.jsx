@@ -3,12 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ThemeContext } from 'providers/ThemeProvider';
-import { Container, Button } from 'components/common';
+import { Container} from 'components/common';
 import pinch from 'assets/illustrations/pinch.png';
-import rbc from 'assets/illustrations/RBC.png';
-import interac from 'assets/illustrations/interac.png';
-import {Thumbnail } from './styles';
-import {Row,Col,} from 'reactstrap'
+import rbc from 'assets/illustrations/RBC.svg';
+import interac from 'assets/illustrations/interac.svg';
+import {Thumbnail,ImageCard } from './styles';
+import {Row,Col,CardImg} from 'reactstrap'
 export const Experiences = () => {
   const { theme } = useContext(ThemeContext);
 
@@ -33,7 +33,10 @@ export const Experiences = () => {
         </Row>
         <Row >
             <Col xs="2">
-                <img src={pinch} alt="I’m John and I’m a JAMStack engineer!" />
+                <ImageCard theme={theme}>
+                    <CardImg src={pinch} width="100%"/>
+                </ImageCard>
+               
             </Col>
            <Col >
                 <ul>

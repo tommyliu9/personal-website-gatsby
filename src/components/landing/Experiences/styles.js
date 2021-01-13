@@ -13,6 +13,8 @@ export const Thumbnail = styled.div`
 `;
 
 
-export const ExperienceCard = styled.div`
-  
+export const ImageCard = styled.div`
+  padding: 1rem;
+  background: ${({ theme }) => (theme === 'light' ? '#fff' :'#181717')};
+  height: 100%;
 `;
